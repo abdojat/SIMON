@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    background-color: #404B69;
+}
+
+h1 {
+    font-size: 4.5rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+  
+  }
+
+.green {
+    background-color: green;
+    color:green;
+}
+
+.yellow {
+    background-color: yellow;
+    color : yellow;
+}
+
+.blue {
+    background-color: blue;
+    color : blue;
+}
+
+.red {
+    background-color: red;
+    color : red;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
