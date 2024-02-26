@@ -115,6 +115,7 @@ async function waitForButtonClick(lev, pla) {
     });
     var clickEvent = await promise;
     buttonAnimation(clickEvent.currentTarget.innerHTML);
+    makeSound(clickEvent.currentTarget.innerHTML);
     console.log(clickEvent.currentTarget.classList.contains(orderNames[pla]));
     if (clickEvent.currentTarget.classList.contains(orderNames[pla]))
         pla++;
